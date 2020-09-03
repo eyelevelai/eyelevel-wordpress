@@ -280,17 +280,17 @@ h3 {
 	border-radius: 50%;
 }
 .works-image-1{
-	background: url(/wp-content/themes/blankslate/assets/img/works/works-1.svg) no-repeat center;
+	background: url(/wp-content/themes/eyelevel/assets/img/works/works-1.svg) no-repeat center;
 	background-size: 80px 80px;
 	background-color: #d4deed;
 }
 .works-image-2{
-	background: url(/wp-content/themes/blankslate/assets/img/works/works-2.svg) no-repeat center;
+	background: url(/wp-content/themes/eyelevel/assets/img/works/works-2.svg) no-repeat center;
 	background-size: 80px 80px;
 	background-color: #d4deed;
 }
 .works-image-3{
-	background: url(/wp-content/themes/blankslate/assets/img/works/works-3.svg) no-repeat center;
+	background: url(/wp-content/themes/eyelevel/assets/img/works/works-3.svg) no-repeat center;
 	background-size: 80px 80px;
 	background-color: #d4deed;
 }
@@ -321,7 +321,7 @@ h3 {
 .conversions-plus-icon{
 	width: 100%;
 	height: 36px;
-	background: url(/wp-content/themes/blankslate/assets/img/conversionsplus.svg) no-repeat center;
+	background: url(/wp-content/themes/eyelevel/assets/img/conversionsplus.svg) no-repeat center;
 	background-size: 300px 21px;
 }
 .conversions-plus-text{
@@ -561,7 +561,7 @@ h4 {
 .blue-circle-arrow{
 	width: 40px;
 	height: 33px;
-	background: url(/wp-content/themes/blankslate/assets/img/arrow.svg) no-repeat top left;
+	background: url(/wp-content/themes/eyelevel/assets/img/arrow.svg) no-repeat top left;
 	background-size: 40px 33px;
 }
 h1 {
@@ -631,19 +631,19 @@ h1 {
 	height: 18px;
 }
 .eargo-image{
-	background: url(/wp-content/themes/blankslate/assets/img/brands/eargo-image.jpg) no-repeat center;
+	background: url(/wp-content/themes/eyelevel/assets/img/brands/eargo-image.jpg) no-repeat center;
 }
 .newton-logo{
 	height: 20px;
 }
 .newton-image{
-	background: url(/wp-content/themes/blankslate/assets/img/brands/newton-image.jpg) no-repeat center;
+	background: url(/wp-content/themes/eyelevel/assets/img/brands/newton-image.jpg) no-repeat center;
 }
 .genomelink-logo{
 	height: 26px;
 }
 .genomelink-image{
-	background: url(/wp-content/themes/blankslate/assets/img/brands/genomelink-image.jpg) no-repeat center;
+	background: url(/wp-content/themes/eyelevel/assets/img/brands/genomelink-image.jpg) no-repeat center;
 }
 .quote-row{
 	margin: 20px 0 0;
@@ -1069,7 +1069,7 @@ li {
   width: 100%;
   height: 500px;
   background-color: hsl(0, 0%, 55%);
-  background-image: url(/wp-content/themes/blankslate/assets/img/about/company-image.jpg);
+  background-image: url(/wp-content/themes/eyelevel/assets/img/about/company-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1098,7 +1098,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/wp-content/themes/blankslate/assets/img/about/sf-topdown.png);
+  background-image: url(/wp-content/themes/eyelevel/assets/img/about/sf-topdown.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -1124,7 +1124,7 @@ li {
   width: 100%;
   height: 500px;
   background-color: hsl(0, 0%, 55%);
-  background-image: url(/wp-content/themes/blankslate/assets/img/career/sf-sunset.jpg);
+  background-image: url(/wp-content/themes/eyelevel/assets/img/career/sf-sunset.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

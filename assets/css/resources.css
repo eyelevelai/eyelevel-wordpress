@@ -121,7 +121,7 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-image: url(/wp-content/themes/blankslate/assets/img/resources_image.png)
+  background-image: url(/wp-content/themes/eyelevel/assets/img/resources_image.png)
 }
 .wp-block-latest-posts a,.case-studies a {
   color: #364051;
@@ -205,7 +205,7 @@ footer {
 .demo-phone-image {
   width: 100%;
   height: 0;
-  background-image: url(/wp-content/themes/blankslate/assets/img/phone/iphone.png);
+  background-image: url(/wp-content/themes/eyelevel/assets/img/phone/iphone.png);
   background-position: 50%;
   background-size: contain;
   background-repeat: no-repeat;
