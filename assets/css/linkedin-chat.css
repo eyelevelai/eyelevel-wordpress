@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px auto;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%;
+  min-width: 320px;
+}
+main {
+  margin: 0px auto;
+  width: 100%;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+}
+.linkedin-container {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+}
+.linkedin-section {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  flex: 1;
+}
+.form-modal-main {
+  width: 100%;
+  height: 100%;
+  touch-action: auto;
+  pointer-events: all;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.body-inverted {
+  background: #374050;
+}
+.form-main {
+  width: 100%;
+  height: 100%;
+  padding: 2.8rem;
+  background-color: #ffffff;
+  outline: none;
+  position: relative;
+}
+.modal-gated-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  z-index: 1;
+}
+.form-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.small-spacing {
+  margin-top: 0.5rem;
+}
+.flex-spacing {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+}
+.default-text {
+  font-size: 1rem;
+  color: #374050;
+}
+.header-text {
+  font-size: 1.375rem;
+  font-weight: bold;
+  color: #374050;
+}
+.small-text {
+  font-size: 0.875rem;
+  color: #374050;
+}
+.button-container {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.submit-button-container {
+  margin-top: 1.0rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.submit-button {
+  border-radius: 0.25rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6897cd;
+  color: #fff;
+  padding: 0.75rem 2.25rem;
+  font-size: 0.825rem;
+  max-width: 13.5rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+.youtube-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.youtube-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 1000px) {
+  .default-text {
+    font-size: 0.875rem;
+  }
+  .header-text {
+    font-size: 1.25rem;
+  }
+  .small-text {
+    font-size: 0.75rem;
+  }
+}
+@media (min-width: 1000px) {
+  .form-main {
+    padding: 2.8rem;
+  }
+}
+@media (max-width: 800px) {
+  .form-modal-main {
+    display: none;
+  }
+}

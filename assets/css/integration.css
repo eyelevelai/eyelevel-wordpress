@@ -1,0 +1,340 @@
+.intercom-heading {
+	max-width: 400px;
+}
+.intercom-inbox-container {
+	width: 80%;
+	float: right;
+}
+.fold1-container {
+  max-width: 1000px;
+}
+.inbox-image {
+	width: 100%;
+}
+.phone-image {
+	width: 100%;
+}
+.phone-image img {
+	height: auto;
+}
+.questions-fold {
+	width: 100%;
+	height: auto;
+	padding: 9.0em 0 35px;
+	margin-top: -7.5em;
+}
+.questions-text {
+	width: 100%;
+	font-size: 1.5em;
+	color: #374050;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.question-button a {
+	width: 160px;
+}
+.question-button {
+  align-items: center;
+  justify-content: center;
+  display: flex !important;
+}
+.price-arrow {
+	width: 14px;
+	margin-right: 6px;
+}
+.price-cta-text {
+	padding-right: 8px;
+	padding-left: 8px;
+	width: 100%;
+	text-align: center;
+}
+.price-cta-button a {
+	height: 38px;
+  border-radius: 4px;
+  background-color: #6897cd;
+  font-weight: 500;
+  color: #fff;
+  font-size: 0.8em;
+	margin: 16px 16px 8px;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+}
+.intercom-phone-holder {
+	max-width: 560px;
+	margin-left: 40px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.intercom-cta-button a {
+	height: 38px;
+  border-radius: 4px;
+  background-color: #6897cd;
+  font-weight: 600;
+  color: #fff;
+  font-size: 0.9em;
+	margin: 20px 0;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 8px 16px;
+}
+.works-fold3 {
+	padding: 35px 0 80px;
+}
+.works-fold {
+	display: flex;
+	flex-flow: row wrap;
+}
+.works-container {
+	display: flex;
+	width: 50%;
+	margin-top: 10px;
+}
+.works-diagrams {
+	flex-flow: row wrap;
+}
+.works-dark-title {
+	color: #fff;
+	font-weight: 500;
+	font-size: 1.0em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+}
+.works-light-title {
+	color: #374050;
+	font-size: 1.1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+}
+.intercom-works-row {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	padding: 10px 0px;
+}
+.works-row-1 {
+	background: url(/wp-content/uploads/2020/09/arrow-1.svg) no-repeat bottom;
+	background-size: cover;
+	padding: 16px 20px 20px;
+	z-index: 4;
+}
+.works-row-2 {
+	background: url(/wp-content/uploads/2020/09/arrow-2.svg) no-repeat bottom;
+	background-size: cover;
+	padding: 36px 20px 18px;
+	margin-top: -20px;
+	z-index: 3;
+}
+.works-row-3 {
+	background: url(/wp-content/uploads/2020/09/arrow-3.svg) no-repeat bottom;
+	background-size: cover;
+	margin-top: -20px;
+	padding: 36px 20px 18px;
+	z-index: 2;
+}
+.works-row-4 {
+	background: url(/wp-content/uploads/2020/09/arrow-4.svg) no-repeat bottom;
+	background-size: cover;
+	margin-top: -20px;
+	padding: 36px 20px;
+	z-index: 1;
+}
+.works-row-4 .wp-block-group__inner-container {
+  width: auto;
+}
+.works-row-4-image-container {
+	margin-top: 10px;
+}
+.works-row-4-image {
+	width: 120%;
+	margin-left: -10%;
+}
+.icon-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	height: 60px;
+	margin-top: 4px;
+}
+.icon-row-3 {
+	height: 90px;
+	align-items: center;
+}
+.row-1-icon {
+	margin: 0px 8px;
+}
+.row-3-icon {
+	margin: 0px 8px;
+}
+.works-slack-icon {
+	background: url(/wp-content/uploads/2020/09/slack-logo.png) no-repeat center;
+	background-size: 126px;
+	width: 126px;
+}
+.works-intercom-icon {
+	background: url(/wp-content/uploads/2020/09/intercom-icon.svg) no-repeat center;
+	background-size: 50px;
+	width: 50px;
+}
+.works-double-arrows {
+	background: url(/wp-content/uploads/2020/09/double-arrows.svg) no-repeat center;
+	background-size: 50px;
+	width: 50px;
+}
+.works-eyelevel-icon {
+	background: url(/wp-content/uploads/2020/09/eyelevel-icon.svg) no-repeat center;
+	background-size: 50px;
+	width: 50px;
+}
+.works-diagram {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+}
+.works-diagram-big {
+	background: url(/wp-content/uploads/2020/09/flow.svg) no-repeat center;
+	background-size: contain;
+	height: 80px;
+	width: 100%;
+}
+.works-diagram-icon {
+	background: url(/wp-content/uploads/2020/09/flow.svg) no-repeat center;
+	background-size: contain;
+	height: 60px;
+	width: 115px;
+}
+.works-right-arrow {
+	background: url(/wp-content/uploads/2020/09/right-arrow.svg) no-repeat center;
+	background-size: contain;
+	width: 32px;
+	height: 32px;
+}
+.works-facebook-icon {
+	background: url(/wp-content/uploads/2020/09/facebook.svg) no-repeat center;
+	background-size: contain;
+	width: 50px;
+	height: 50px;
+}
+.works-messenger-icon {
+	background: url(/wp-content/uploads/2020/09/messenger.svg) no-repeat center;
+	background-size: contain;
+	width: 50px;
+	height: 50px;
+}
+.start-container {
+	padding: 0 20px;
+	justify-content: center;
+}
+.start-circle {
+	width: 320px;
+	height: 320px;
+	margin-top: 80px;
+	border-radius: 50%;
+	background-color: #374050;
+	display: flex;
+	align-items: center;
+}
+.start-circle .wp-block-group__inner-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+  width: auto;
+}
+.start-title {
+	font-size: 2.0em;
+	color: #fff;
+	height: 70px;
+	display: flex;
+	align-items: flex-end;
+}
+.start-desc {
+	font-size: 1.0em;
+	color: #fff;
+	text-align: center;
+	padding: 0px 40px;
+	height: 70px;
+}
+@media screen and (min-width: 782px) {
+
+}
+
+@media screen and (max-width: 781px) {
+	.fold1-container {
+		height: 100%;
+	}
+	.works-container {
+		width: 100%;
+	}
+	.works-row-2 {
+		margin-top: -28px;
+		padding: 44px 20px 16px;
+	}
+	.works-row-3 {
+		margin-top: -28px;
+		padding: 44px 20px 16px;
+	}
+	.works-row-4 {
+		margin-top: -28px;
+		padding: 44px 20px;
+	}
+	.works-row-4-image {
+    width: 110%;
+    margin-left: -5%;
+	}
+	.works-fold {
+		justify-content: center;
+	}
+	.works-dark-title {
+		font-size: 0.9em;
+	}
+	.works-light-title {
+		font-size: 0.9em;
+	}
+	.start-container {
+		margin: 0px -30px 0px;
+    padding: 0;
+    width: 120%;
+	}
+	.start-circle {
+		width: 300px;
+		height: 300px;
+	}
+	.start-title {
+		font-size: 1.6em;
+	}
+	.intercom-cta-button a {
+		font-size: 0.8em;
+	}
+	.start-desc {
+		font-size: 0.9em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.price-cta-button a {
+		font-weight: 600;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+}
