@@ -83,8 +83,6 @@ register_sidebar( array(
 
 add_action( 'wp_head', 'eyelevel_header' );
 function eyelevel_header() {
-  global $post;
-
   if ( is_singular() && pings_open() ) {
     printf( '<link rel="pingback" href="%s" />' . "\n", esc_url( get_bloginfo( 'pingback_url' ) ) );
   }
@@ -92,39 +90,4 @@ function eyelevel_header() {
   printf( '<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,600,700&display=swap" />' . "\n" );
   printf( '<link rel="stylesheet" href="%s" />' . "\n", esc_url( get_theme_file_uri( 'assets/css/style.css?v=2.7' ) ) );
   printf( '<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />' . "\n" );
-
-  if (is_page() || is_single()) {
-    if (
-      strpos($post->post_name, 'resources') > -1
-      || strpos($post->post_name, 'demo') > -1
-      || strpos($post->post_name, 'case-studies') > -1
-      || strpos($post->post_name, 'article') > -1
-      || strpos($post->post_name, 'privacy-policy') > -1
-      || strpos($post->post_name, 'terms-of-use') > -1
-    ) {
-      printf( '<link rel="stylesheet" href="%s" />' . "\n", esc_url( get_theme_file_uri( 'assets/css/resources.css?v=1.0' ) ) );
-    }
-    if (
-      strpos($post->post_name, 'demo') > -1
-      || strpos($post->post_name, 'privacy-policy') > -1
-      || strpos($post->post_name, 'terms-of-use') > -1
-      || (strpos($post->post_name, 'case-studies') > -1 && $post->post_name != 'case-studies')
-      || (strpos($post->post_name, 'article') > -1 && $post->post_name != 'articles')
-    ) {
-      printf( '<link rel="stylesheet" href="%s" />' . "\n", esc_url( get_theme_file_uri( 'assets/css/article.css?v=1.0' ) ) );
-    }
-    if (
-      strpos($post->post_name, 'intercom') > -1
-      || strpos($post->post_name, 'slack') > -1
-    ) {
-      printf( '<link rel="stylesheet" href="%s" />' . "\n", esc_url( get_theme_file_uri( 'assets/css/integration.css?v=1.0' ) ) );
-    }
-    if (
-      strpos($post->post_name, 'tour') > -1
-      || strpos($post->post_name, 'pdf') > -1
-      || strpos($post->post_name, 'linkedin') > -1
-    ) {
-      printf( '<link rel="stylesheet" href="%s" />' . "\n", esc_url( get_theme_file_uri( 'assets/css/iframe.css?v=1.0' ) ) );
-    }
-  }
 }

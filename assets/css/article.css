@@ -202,10 +202,14 @@ ol.article-list-numbered {
   .fold4a-container {
 		margin: 0 30px 40px;
   }
-  .article-image-logo {
+  .article-image-logo img {
     width: 200px !important;
   }
 	figure img {
     width: 100% !important;
 	}
+	.author-image-container img {
+    width: 46px !important;
+    height: 46px !important;
+  }
 }

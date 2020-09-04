@@ -1,10 +1,3 @@
-body {
-  min-height: 100vh;
-  display: flex;
-}
-footer {
-  height: 100%;
-}
 .wp-block-group__inner-container {
   width: 100% !important;
   max-width: 1000px !important;
@@ -49,6 +42,9 @@ footer {
 }
 .top-spacer {
   margin-top: 10px;
+}
+.no-top-spacer {
+  margin-top: 0;
 }
 .fold1b-h1{
   font-size: 1.75rem;
@@ -109,8 +105,21 @@ footer {
   width: 290px;
   flex-flow: row wrap;
 }
+.demo-list li {
+  display: list-item;
+  width: 100%;
+  box-shadow: none;
+  margin: 7px 0;
+}
+.demo-list a {
+  padding: 0 !important;
+}
+.wp-block-latest-posts__featured-image {
+  width: 100%;
+}
 .wp-block-latest-posts__featured-image img {
   width: 100%;
+  max-width: 100% !important;
   height: 125px;
   object-fit: cover;
   object-position: center;
@@ -121,7 +130,7 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-image: url(/wp-content/themes/eyelevel/assets/img/resources_image.png)
+  background-image: url(/wp-content/themes/eyelevel-wp-theme/assets/img/resources_image.png)
 }
 .wp-block-latest-posts a,.case-studies a {
   color: #364051;
@@ -151,7 +160,6 @@ footer {
   margin: 0;
 }
 .demo-container {
-  width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -177,22 +185,20 @@ footer {
 .demo-left-col-a {
   width: 58%;
   margin-right: 2%;
-  margin-bottom: 18px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .demo-right-col-a {
   width: 38%;
-  margin-left: 2%;
-  margin-bottom: 18px;
+  margin-left: 2% !important;
 }
 .demo-left-col-b {
   width: 38%;
   margin-right: 2%;
-  margin-bottom: 18px;
 }
 .demo-right-col-b {
   width: 58%;
   margin-left: 2%;
-  margin-bottom: 18px;
 }
 .demo-phone-col {
   margin-top: -18px;
@@ -201,14 +207,15 @@ footer {
   position: relative;
   margin: 10px 0 0;
   overflow: hidden;
+  width: 320px;
 }
 .demo-phone-image {
   width: 100%;
   height: 0;
-  background-image: url(/wp-content/themes/eyelevel/assets/img/phone/iphone.png);
   background-position: 50%;
   background-size: contain;
   background-repeat: no-repeat;
+  background-image: url(/wp-content/uploads/2020/09/iphone.png);
   padding-top: 218.21%;
   z-index: 2;
   position: relative;
@@ -220,12 +227,18 @@ footer {
   left: 5.87%;
   height: 87.78%;
 }
+.wp-block-video video {
+  max-height: 100%;
+}
 .back-nav {
   width:100%;
 }
-@media screen and (max-width: 841px) {
+@media screen and (max-width: 1000px) {
   .wp-block-group__inner-container {
     width: calc(100% - 60px) !important;
+  }
+  .demo-video {
+    left: 13.8%;
   }
 }
 @media screen and (max-width: 781px) {
@@ -240,6 +253,10 @@ footer {
   }
   .wp-block-latest-posts li {
     width: 46%;
+    max-width: 46% !important;
+  }
+  .demo-video {
+    left: 9.8%;
   }
 	.demo-left-col-a {
     width: 100%;
@@ -275,9 +292,25 @@ footer {
   }
   .wp-block-latest-posts li {
     width: 98%;
+    margin: 16px 0;
+    max-width: 98% !important;
+  }
+  .wp-block-latest-posts {
+    justify-content: center;
+    align-items: center;
   }
   .demo-phone-col {
     width: 80%;
+  }
+  .demo-left-col-a {
+    margin-top: 2em;
+  }
+  .demo-right-col-a {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 2em;
+    margin-left: 0 !important;
   }
   .cta-btn-holder{
   	justify-content: center;
