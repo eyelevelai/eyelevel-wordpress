@@ -11,12 +11,21 @@
       <div>
         <button class="cls-btn" type="button" name="button"> <i class="fas fa-times"></i> </button>
       </div>
-      <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+<?php
+global $post;
+if ((is_page() || is_single()) && (
+    strpos($post->post_name, 'front-page-v2-mock') > -1
+  )) {
+  wp_nav_menu( array( 'menu' => 'v2-menu', 'container_class' => 'main-menu-nav' ) );
+  wp_nav_menu( array( 'menu' => 'v2-submenu', 'container_class' => 'main-menu-cta' ) );
+} else {
+  wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
+}
+?>
     </div>
   </aside>
 
 <?php
-  global $post;
   if ((is_page() || is_single()) && (
     strpos($post->post_name, 'showtime') > -1
   )) {
@@ -32,10 +41,19 @@
       <div class="container">
         <header>
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="eyelevel-logo" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">
-            <img class="el-logo" src="https://eyelevel.ai/assets/img/logo/el-logo-bright.png" alt="EyeLevel.ai">
+            <img class="el-logo" src="<?php printf('%s' . "\n", esc_url(get_theme_file_uri( 'assets/img/logo/el-logo-bright.png'))); ?>" alt="EyeLevel.ai">
           </a>
           <nav id="menu" class="eyelevel-menu menu-inverted">
-            <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+<?php
+if ((is_page() || is_single()) && (
+    strpos($post->post_name, 'front-page-v2-mock') > -1
+  )) {
+  wp_nav_menu( array( 'menu' => 'v2-menu', 'container_class' => 'main-menu-nav' ) );
+  wp_nav_menu( array( 'menu' => 'v2-submenu', 'container_class' => 'main-menu-cta' ) );
+} else {
+  wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
+}
+?>
           </nav>
           <button class="open-mob-menu" type="button" name="button"><i class="fas fa-bars"></i></button>
         </header>
@@ -49,10 +67,19 @@
       <div class="container">
         <header>
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="eyelevel-logo" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">
-            <img class="el-logo" src="https://eyelevel.ai/assets/img/logo/el-logo-dark.png" alt="EyeLevel.ai">
+            <img class="el-logo" src="<?php printf('%s' . "\n", esc_url(get_theme_file_uri('assets/img/logo/el-logo-dark.png'))); ?>" alt="EyeLevel.ai">
           </a>
           <nav id="menu" class="eyelevel-menu">
-            <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+<?php
+if ((is_page() || is_single()) && (
+    strpos($post->post_name, 'front-page-v2-mock') > -1
+  )) {
+  wp_nav_menu( array( 'menu' => 'v2-menu', 'container_class' => 'main-menu-nav' ) );
+  wp_nav_menu( array( 'menu' => 'v2-submenu', 'container_class' => 'main-menu-cta' ) );
+} else {
+  wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
+}
+?>
           </nav>
           <button class="open-mob-menu" type="button" name="button"><i class="fas fa-bars"></i></button>
         </header>
