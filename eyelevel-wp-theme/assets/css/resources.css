@@ -186,9 +186,11 @@
   width: 58%;
   margin-right: 2%;
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 .demo-right-col-a {
+  margin-top: 1em;
+  margin-bottom: 2em;
   width: 38%;
   margin-left: 2% !important;
 }
@@ -203,42 +205,12 @@
 .demo-phone-col {
   margin-top: -18px;
 }
-.demo-phone {
-  position: relative;
-  margin: 10px 0 0;
-  overflow: hidden;
-  width: 320px;
-}
-.demo-phone-image {
-  width: 100%;
-  height: 0;
-  background-position: 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(/wp-content/uploads/2020/09/iphone.png);
-  padding-top: 218.21%;
-  z-index: 2;
-  position: relative;
-}
-.demo-video {
-  position: absolute;
-  z-index: 1;
-  top: 6.07%;
-  left: 5.87%;
-  height: 87.78%;
-}
-.wp-block-video video {
-  max-height: 100%;
-}
 .back-nav {
   width:100%;
 }
 @media screen and (max-width: 1000px) {
   .wp-block-group__inner-container {
     width: calc(100% - 60px) !important;
-  }
-  .demo-video {
-    left: 13.8%;
   }
 }
 @media screen and (max-width: 781px) {
@@ -255,16 +227,11 @@
     width: 46%;
     max-width: 46% !important;
   }
-  .demo-video {
-    left: 9.8%;
-  }
 	.demo-left-col-a {
     width: 100%;
-    margin: 0;
   }
   .demo-right-col-a {
     width: 100%;
-    margin: 0;
   }
   .demo-left-col-b {
     width: 100%;
@@ -304,13 +271,17 @@
   }
   .demo-left-col-a {
     margin-top: 2em;
+    margin-bottom: 0 !important;
   }
   .demo-right-col-a {
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-    margin-bottom: 2em;
     margin-left: 0 !important;
+    margin-top: 0 !important;
+  }
+  .demo-phone {
+    width: 90%;
   }
   .cta-btn-holder{
   	justify-content: center;
