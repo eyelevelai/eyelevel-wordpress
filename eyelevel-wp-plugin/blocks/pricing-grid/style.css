@@ -1,0 +1,186 @@
+/**
+ * The following styles get applied both on the front of your site and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.flex-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price-fold {
+	width: 100%;
+	height: auto;
+	padding: 35px 0 0px;
+}
+.price-list {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+  max-width: 1000px;
+  margin-top: -100px;
+  z-index: 12;
+  position: relative;
+  margin-bottom: 30px;
+}
+.price-container {
+	padding: 5px;
+	width: 25%;
+	display: flex;
+	text-align: center;
+}
+.price-container-inset {
+	background: #fff;
+	border: 2px solid #d8d8d8;
+	padding: 0;
+	width: 100%;
+}
+.price-selected {
+	background: #f4f4f4;
+	border: 2px solid #719ed3;
+}
+.price-container-content {
+	flex: 1 0 auto;
+	min-height: 10.0em;
+	padding: 1rem 1.5rem 1.5rem;
+}
+.price-header-content {
+	height: 12.0em;
+	padding: 1.5rem 1rem 1.25rem;
+  border-bottom: 2px solid #d8d8d8;
+  background: #eff5fc;
+}
+.price-sub-title {
+	margin: 0px -0.75rem 0.75rem -0.75rem;
+	font-size: 1.15em;
+	color: #719ed3;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.price-sub-pricing {
+	font-weight: 800;
+	font-size: 2.25rem;
+	color: #4a4a4a;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+  line-height: 0.75;
+  height: 2.5rem;
+  margin: 0.75rem 0 0.25rem;
+}
+.e-pricing {
+  font-size: 1.75rem;
+  line-height: 1.25;
+}
+.price-dollars:before {
+  content: '$';
+  font-size: 1.0rem;
+  vertical-align: top;
+}
+.price-cents {
+  font-size: 1.0rem;
+}
+.price-asterisk {
+	font-size: 0.5rem;
+	font-weight: normal;
+}
+.price-sub-pricing-subtitle {
+	font-size: 1.0rem;
+	margin-bottom: 0.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-weight: 300;
+}
+.e-subtitle {
+  font-size: 0.875rem;
+}
+.price-sub-pricing-description {
+	font-size: 0.75rem;
+  opacity: 0.75;
+  font-weight: 300;
+}
+.price-features-title {
+	color: #719ed3;
+	font-weight: 500;
+}
+.price-feature {
+	font-size: 0.75rem;
+	margin: 0.5rem 0 0 1rem;
+	display: list-item !important;
+	text-align: left;
+  font-weight: 300;
+}
+.price-feature span {
+  margin-left: -12px;
+}
+.price-feature-blank {
+	height: 16px;
+}
+.price-cta-button {
+	height: 38px;
+  border-radius: 4px;
+  background-color: #6897cd;
+  font-weight: 500;
+  color: #fff;
+  font-size: 0.8em;
+	margin: 16px 16px 8px;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+}
+.price-arrow {
+	width: 14px;
+	margin-right: 6px;
+}
+.price-cta-text {
+	padding-right: 8px;
+	padding-left: 8px;
+	width: 100%;
+	text-align: center;
+}
+.price-foot-note {
+	font-size: 0.7em;
+	color: #374050;
+	margin-top: 6px;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.price-foot-note-date {
+	margin-left: 3px;
+}
+
+@media screen and (max-width: 1000px) {
+  .price-header-content {
+    height: 14.0rem;
+  }
+}
+
+@media screen and (max-width: 781px) {
+	.price-container {
+		width: 50%;
+	}
+	.price-header-content {
+		height: 12.0em;
+	}
+}
+
+@media screen and (max-width: 599px) {
+	.price-cta-button {
+		font-weight: 600;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.price-container {
+		width: 100%;
+	}
+}
+

@@ -87,7 +87,7 @@ function eyelevel_header() {
     printf( '<link rel="pingback" href="%s" />' . "\n", esc_url( get_bloginfo( 'pingback_url' ) ) );
   }
 
-  printf( '<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,600,700&display=swap" />' . "\n" );
+  printf( '<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800,900&display=swap" />' . "\n" );
   printf( '<link rel="stylesheet" href="%s" />' . "\n", esc_url( get_theme_file_uri( 'assets/css/style.css?v=2.7' ) ) );
   printf( '<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />' . "\n" );
 }

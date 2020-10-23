@@ -15,3 +15,4 @@
 // Your code starts here.
 
 include 'blocks/video-demo.php';
+include 'blocks/pricing-grid.php';
