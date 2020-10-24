@@ -532,6 +532,15 @@ h4 {
   font-weight: normal;
   line-height: 100%;
 }
+.demo-video-v2 {
+  box-shadow: 4px 4px 4px #c4c4c4;
+  border: 1px solid #c4c4c4;
+  margin: 15px;
+  outline: none;
+}
+.demo-video-v2 video {
+  outline: none;
+}
 .fold2-row{
   flex-flow: row wrap;
 }
