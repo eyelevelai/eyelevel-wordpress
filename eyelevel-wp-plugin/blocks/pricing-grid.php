@@ -41,10 +41,19 @@ function pricing_grid_block_init() {
 		filemtime( "$dir/$style_css" )
 	);
 
+	$block_js = 'pricing-grid/block.js';
+	wp_register_script(
+        'pricing-grid-block',
+        plugins_url( $block_js, __FILE__ ),
+        array('jquery'),
+        filemtime( "$dir/$block_js" )
+    );
+
 	register_block_type( 'eyelevel-wp-plugin/pricing-grid', array(
 		'editor_script' => 'pricing-grid-block-editor',
 		'editor_style'  => 'pricing-grid-block-editor',
 		'style'         => 'pricing-grid-block',
+		'script'        => 'pricing-grid-block',
 	) );
 }
 add_action( 'init', 'pricing_grid_block_init' );

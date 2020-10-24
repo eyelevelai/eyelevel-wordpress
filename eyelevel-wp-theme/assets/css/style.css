@@ -279,8 +279,8 @@ header:not(.sub-page) .menu-inverted li a {
   background-color: inherit;
 }
 .pricing-header {
-  min-height: 200px !important;
-  padding-bottom: 180px !important;
+  min-height: 300px !important;
+  padding-bottom: 200px !important;
 }
 h2 {
   font-size: 1.5em;
@@ -1312,8 +1312,7 @@ footer .footer-section{
     min-height: 260px !important;
   }
   .pricing-header {
-		min-height: 200px !important;
-		padding-bottom: 140px !important;
+		padding-bottom: 180px !important;
   }
   .fold1-heading{
     width: auto;
