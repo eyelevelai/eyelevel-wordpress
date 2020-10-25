@@ -89,6 +89,8 @@
 .wp-block-latest-posts {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 .case-studies .wp-block-group__inner-container {
@@ -261,10 +263,6 @@
     width: 98%;
     margin: 16px 0;
     max-width: 98% !important;
-  }
-  .wp-block-latest-posts {
-    justify-content: center;
-    align-items: center;
   }
   .demo-phone-col {
     width: 80%;
