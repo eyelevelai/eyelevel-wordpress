@@ -576,15 +576,55 @@ h4 {
 .eyelevel-column h4 {
   margin: 0 1em 1em 1em;
 }
-.wp-block-column .wp-block-video {
+
+.wp-block-embed {
+	margin-bottom: 1em;
+}
+.wp-block-embed__wrapper {
+	position: relative;
+}
+.wp-block-embed__wrapper::before {
+	content: "";
+	display: block;
+	padding-top: 50%;
+}
+.wp-block-embed iframe {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.wp-embed-aspect-21-9 .wp-block-embed__wrapper::before {
+	padding-top: 42.85%;
+}
+.wp-embed-aspect-18-9 .wp-block-embed__wrapper::before {
+	padding-top: 50%;
+}
+.wp-embed-aspect-16-9 .wp-block-embed__wrapper::before {
+	padding-top: 56.25%;
+}
+.wp-embed-aspect-4-3 .wp-block-embed__wrapper::before {
+	padding-top: 75%;
+}
+.wp-embed-aspect-1-1 .wp-block-embed__wrapper::before {
+	padding-top: 100%;
+}
+.wp-embed-aspect-9-16 .wp-block-embed__wrapper::before {
+	padding-top: 177.77%;
+}
+.wp-embed-aspect-1-2 .wp-block-embed__wrapper::before {
+	padding-top: 200%;
+}
+.wp-block-column .wp-block-embed {
   box-shadow: 4px 4px 4px #c4c4c4;
   border: 1px solid #c4c4c4;
   margin: 15px;
   outline: none;
 }
-.wp-block-column .wp-block-video video {
-  outline: none;
-}
+
 .fold2-row{
   flex-flow: row wrap;
 }
