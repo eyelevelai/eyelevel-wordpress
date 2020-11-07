@@ -252,24 +252,6 @@ header:not(.sub-page) .eyelevel-menu li a {
 header:not(.sub-page) .menu-inverted li a {
   color: #374050;
 }
-.chat-preview {
-  width: 100vw;
-  height: 100vh;
-}
-.chat-preview img {
-  height: 100vh;
-  object-fit: cover;
-  width: 100vw;
-}
-.preview-button a {
-	position: absolute;
-  height: 100vh;
-  width: 100vw;
-  top: 0;
-  left: 0;
-  color: transparent !important;
-  background-color: transparent !important;
-}
 .mob-eyelevel-logo{
   width: 150px;
   height: 60px;
@@ -1289,7 +1271,7 @@ li {
   height: 100vh;
   background-color: #fff;
   position: fixed;
-  z-index: 6;
+  z-index: 13;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   animation: slideIn 0.4s;

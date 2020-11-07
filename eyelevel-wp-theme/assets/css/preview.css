@@ -1,0 +1,33 @@
+body {
+  width: 100vw !important;
+  height: 100vh !important;
+}
+main {
+  height: 100% !important;
+}
+article {
+  height: 100% !important;
+}
+#content {
+  height: 100% !important;
+}
+.entry-content {
+  height: 100% !important;
+}
+.chat-preview {
+  display: block;
+  height: 100%;
+}
+.chat-preview img {
+  height: auto;
+  object-fit: cover;
+}
+.preview-button a {
+	position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  color: transparent !important;
+  background-color: transparent !important;
+}
