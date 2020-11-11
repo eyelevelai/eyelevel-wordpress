@@ -30,6 +30,8 @@ if ((is_page() || is_single()) && (
     strpos($post->post_name, 'showtime') > -1
     || strpos($post->post_name, 'adt') > -1
     || strpos($post->post_name, 'ncm') > -1
+    || strpos($post->post_name, 'pdf') > -1
+    || strpos($post->post_name, 'tour') > -1
     || strpos($post->post_name, '-preview') > -1
   )) {
 ?>
