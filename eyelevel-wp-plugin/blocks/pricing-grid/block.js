@@ -1,7 +1,7 @@
 (function($) {
     $(document).ready(function(){
-        var annual = [];
-        var monthly = [];
+        var annual = [0];
+        var monthly = [0];
         $('.price-sub-pricing').map(function(idx, ei) {
             if (!$(ei).hasClass('e-pricing')) {
                 var dl = $(ei).find('.price-dollars');

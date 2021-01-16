@@ -26,7 +26,6 @@
 			priced2: { type: 'string', source: 'html', selector: '#price-2 .price-dollars' },
 			priced3: { type: 'string', source: 'html', selector: '#price-3 .price-dollars' },
 			priced4: { type: 'string', source: 'html', selector: '#price-4 .price-sub-pricing' },
-			pricec1: { type: 'string', source: 'html', selector: '#price-1 .price-cents' },
 			pricec2: { type: 'string', source: 'html', selector: '#price-2 .price-cents' },
 			pricec3: { type: 'string', source: 'html', selector: '#price-3 .price-cents' }
         },
@@ -121,7 +120,7 @@
             return el(
                 'div',
                 { className: `price-list ${(props && props.className) ? props.className : ''}` },
-                pricingContainer('1'),
+                pricingContainer('1', true),
                 pricingContainer('2'),
                 pricingContainer('3'),
                 pricingContainer('4', true)
@@ -203,7 +202,7 @@
 				el(
 					'div',
 					{ className: 'price-list' },
-                	pricingContainer('1'),
+                    pricingContainer('1', true),
                 	pricingContainer('2'),
                 	pricingContainer('3'),
                 	pricingContainer('4', true)

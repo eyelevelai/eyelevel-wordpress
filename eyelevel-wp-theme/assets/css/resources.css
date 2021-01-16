@@ -259,6 +259,9 @@
   .fold1b-container {
     margin: 0 0 10px;
   }
+  .wp-block-latest-posts a,.case-studies a {
+		font-size: 0.875rem;
+  }
   .wp-block-latest-posts li {
     width: 98%;
     margin: 16px 0;

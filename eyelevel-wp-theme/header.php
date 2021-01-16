@@ -32,6 +32,7 @@ if ((is_page() || is_single()) && (
     || strpos($post->post_name, 'ncm') > -1
     || strpos($post->post_name, 'pdf') > -1
     || strpos($post->post_name, 'tour') > -1
+    || strpos($post->post_name, 'instagram') > -1
     || strpos($post->post_name, '-preview') > -1
   )) {
 ?>
@@ -45,7 +46,7 @@ if ((is_page() || is_single()) && (
     <section class="fold1 header-inverted">
       <div class="container">
         <header>
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="eyelevel-logo" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">
+          <a href="https://www.eyelevel.ai" class="eyelevel-logo" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">
             <img class="el-logo" src="https://cdn.cashbot.ai/assets/logo-dark-bg.png" alt="EyeLevel.ai">
           </a>
           <nav id="menu" class="eyelevel-menu menu-inverted">
@@ -71,7 +72,7 @@ if ((is_page() || is_single()) && (
     <section class="fold1">
       <div class="container">
         <header>
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="eyelevel-logo" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">
+          <a href="https://www.eyelevel.ai" class="eyelevel-logo" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">
             <img class="el-logo" src="https://cdn.cashbot.ai/assets/logo-dark-bg.png" alt="EyeLevel.ai">
           </a>
           <nav id="menu" class="eyelevel-menu">

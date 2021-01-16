@@ -4,6 +4,7 @@
     $post->post_name == 'pdf'
     || strpos($post->post_name, 'linkedin') > -1
     || strpos($post->post_name, 'showtime') > -1
+    || strpos($post->post_name, 'instagram') > -1
     || strpos($post->post_name, '-preview') > -1
   )) {
 ?>
