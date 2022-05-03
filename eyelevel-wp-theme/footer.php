@@ -2,6 +2,8 @@
   global $post;
   if ((is_page() || is_single()) && (
     $post->post_name == 'pdf'
+    || $post->post_name == 'army-demo'
+    || strpos($post->post_name, 'tour') > -1
     || strpos($post->post_name, 'linkedin') > -1
     || strpos($post->post_name, 'showtime') > -1
     || strpos($post->post_name, 'instagram') > -1
